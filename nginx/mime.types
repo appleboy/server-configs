@@ -16,11 +16,11 @@ types {
   image/tiff                            tif tiff;
   image/vnd.wap.wbmp                    wbmp;
   image/webp                            webp;
-  image/x-icon                          ico;
+  image/x-icon                          ico cur;
   image/x-jng                           jng;
 
 # JavaScript
-  application/javascript                js jsonp;
+  application/javascript                js;
   application/json                      json;
 
 # Manifest files
@@ -85,6 +85,7 @@ types {
   application/x-stuffit                 sit;
   application/x-tcl                     tcl tk;
   application/x-x509-ca-cert            der pem crt;
+  application/x-bittorrent              torrent;
   application/zip                       zip;
 
   application/octet-stream              bin exe dll;
