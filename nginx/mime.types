@@ -4,7 +4,7 @@ types {
   audio/midi                            mid midi kar;
   audio/mp4                             aac f4a f4b m4a;
   audio/mpeg                            mp3;
-  audio/ogg                             oga ogg;
+  audio/ogg                             oga ogg opus;
   audio/x-realaudio                     ra;
   audio/x-wav                           wav;
 
@@ -13,6 +13,7 @@ types {
   image/gif                             gif;
   image/jpeg                            jpeg jpg;
   image/png                             png;
+  image/svg+xml                         svg svgz;
   image/tiff                            tif tiff;
   image/vnd.wap.wbmp                    wbmp;
   image/webp                            webp;
@@ -53,10 +54,10 @@ types {
 
 # Web fonts
   application/font-woff                 woff;
+  application/font-woff2                woff2;
   application/vnd.ms-fontobject         eot;
   application/x-font-ttf                ttc ttf;
   font/opentype                         otf;
-  image/svg+xml                         svg svgz;
 
 # Other
   application/java-archive              jar war ear;
