@@ -15,8 +15,10 @@ server {
 }
 
 server {
-  # listen 80 deferred; # for Linux
+  # listen [::]:80 accept_filter=httpready; # for FreeBSD
   # listen 80 accept_filter=httpready; # for FreeBSD
+  # listen [::]:80 deferred; # for Linux
+  # listen 80 deferred; # for Linux
   listen [::]:80;
   listen 80;
 
@@ -26,7 +28,7 @@ server {
   # Path for static files
   root /sites/example.com/public;
 
-  #Specify a charset
+  # Specify a charset
   charset utf-8;
 
   # Custom 404 page
